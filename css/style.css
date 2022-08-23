@@ -12,8 +12,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 450px;
+  opacity: 0.9;
 }
 header h1 {
   font-size: 35px;
@@ -33,24 +32,37 @@ header span {
 header a {
   font-size: 20px;
   border: 1px solid rgb(255, 255, 255);
-  background: #161616;
+  background: #333;
   margin-top: 50px;
   padding: 18px 35px;
   text-decoration: none;
   color: white;
 }
+header a:hover {
+  background: white;
+  color: black;
+  border-color: black;
+}
 main {
   text-align: center;
 }
-/* #sect-a {
-} */
+#sect-a {
+  min-height: 190px;
+  column-count: 2;
+  column-gap: 3%;
+  padding: 0 25% 40px;
+  background: #eaeaea;
+  opacity: 0.8;
+}
 #sect-a > h2 {
+  column-span: all;
+  font-size: 30px;
   padding: 25px 5px;
 }
 #sect-a > span {
-  column-count: 2;
-  column-gap: 10px;
+  font-size: 20px;
 }
+
 #section-b {
   display: inline-block;
 }
