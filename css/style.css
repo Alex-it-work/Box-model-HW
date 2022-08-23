@@ -1,0 +1,50 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 0;
+}
+header {
+  display: block;
+  height: 450px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  background: #333 url(../images/pexels-photo-248515.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+}
+header h1 {
+}
+header a {
+  border: 1px solid rgb(255, 255, 255);
+  background: #161616;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+main {
+  text-align: center;
+}
+#sect-a {
+}
+#sect-a > h2 {
+  padding: 25px 5px;
+}
+#sect-a > span {
+  column-count: 2;
+  column-gap: 10px;
+}
+#section-b {
+  display: inline-block;
+}
+.card {
+  display: block;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
