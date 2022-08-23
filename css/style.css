@@ -63,13 +63,30 @@ main {
   font-size: 20px;
 }
 
-#section-b {
+#sect-b {
+  min-height: 520px;
+  background: #333;
+  font-size: 20px;
+  opacity: 0.9;
+}
+#card {
   display: inline-block;
+  width: 270px;
+  margin: 30px 1%;
+  background: white;
 }
-.card {
+#card img {
+  height: 180px;
+  width: 270px;
+}
+#card h3 {
+  padding: 25px 0;
+}
+#card span {
   display: block;
+  text-align: center;
+  padding: 0 10% 10%;
 }
-
 footer {
   background-color: black;
   color: white;
