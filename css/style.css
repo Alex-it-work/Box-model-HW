@@ -42,8 +42,8 @@ header a {
 main {
   text-align: center;
 }
-#sect-a {
-}
+/* #sect-a {
+} */
 #sect-a > h2 {
   padding: 25px 5px;
 }
