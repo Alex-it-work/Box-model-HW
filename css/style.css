@@ -125,7 +125,6 @@ main {
   margin: 0;
   position: relative;
   top: 25px;
-  /* padding-top: 25px; */
   font-size: 20px;
 }
 #contact {
@@ -135,7 +134,19 @@ main {
   background: #333;
 }
 footer {
+  min-height: 100px;
   background-color: black;
   color: white;
   text-align: center;
+  font-size: 20px;
+}
+footer > div {
+  box-sizing: border-box;
+  padding-top: 35px;
+  display: inline-block;
+  width: 49%;
+}
+footer > div > a {
+  text-decoration: none;
+  color: #1c90d4;
 }
