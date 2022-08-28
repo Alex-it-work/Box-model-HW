@@ -8,7 +8,7 @@ header {
   height: 450px;
   color: white;
   text-align: center;
-  background: #333 url(../images/pexels-photo-248515.png);
+  background: url(../images/pexels-photo-248515.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,12 +81,33 @@ main {
 }
 #card h3 {
   padding: 25px 0;
+  opacity: 0.9;
 }
 #card span {
   display: block;
   text-align: center;
   padding: 0 10% 10%;
+  opacity: 0.9;
 }
+#sect-с {
+  min-height: 190px;
+  padding: 0 20% 40px;
+  background: #eaeaea;
+  opacity: 0.8;
+}
+#sect-с > h2 {
+  margin: 0;
+  font-size: 30px;
+  padding: 50px 5px;
+}
+#sect-с > span {
+  font-size: 20px;
+}
+#sect-d {
+  min-height: 315px;
+  color: white;
+}
+
 footer {
   background-color: black;
   color: white;
